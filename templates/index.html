@@ -1,0 +1,51 @@
+{%include 'header.html'%}
+<body>
+    <div class="title">
+        <h1>
+            Practice Your French
+        </h1>
+    </div>
+    <section class="card-container">
+        <a href="{{url_for('speech')}}">
+            <div class="card">
+                <div class="card-image card-1">
+                    <img src="static\icons8-talk-100.png">
+                </div>
+                <h2>
+                    Speech
+                </h2>
+                <p>
+                    Practice your pronounciation and speech level
+                </p>
+            </div>
+        </a>
+        <a href="{{url_for('listening')}}">
+            <div class="card">
+                <div class="card-image">
+                    <img src="static\icons8-listen-100.png">
+                </div>
+                <h2>
+                    Listening
+                </h2>
+                <p>
+                    Listen to generated phrases and try your best to type what's being said.
+                </p>
+            </div>
+        </a>
+        <a href="{{url_for('conversation')}}">
+            <div class="card">
+                <div class="card-image">
+                    <img src="static\icons8-keyboard-100.png">
+                </div>
+                <h2>
+                    Conversation
+                </h2>
+                <p>
+                    Talk with AI built to create and hold a conversations with you. 
+                </p>
+            </div>
+        </a>
+    </section>
+    
+</body>
+</html>
